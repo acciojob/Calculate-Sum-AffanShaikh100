@@ -7,7 +7,7 @@ function sum(){
 	let num2 = document.getElementById("n2").value;
 	num2 = parseInt(num2);
 	let sum = num1+num2;
-	document.getElementById("sum").innerHTML=sum;
+	document.getElementById("Sum").innerHTML=sum;
 }
 
 btn.addEventListener("click",sum);
